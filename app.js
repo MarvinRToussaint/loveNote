@@ -20,3 +20,5 @@ mainVideo.addEventListener('ended', () => {
   // when the video has ended I want to hide it again 
   window.location.href = "./index2.html";
  });
+
+ //test
