@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .container{
+    min-width:100%;  
+    min-height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    background-image: url("./pinkPanda.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+    
+}
+
+button {
+    display: block;
+    font-size: 5rem;
+    padding: 0 6rem;
+    border-radius: 2px;
+    color: ghostwhite;
+    box-shadow: 0px 2px 4px 15% #000;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+div a {
+    text-decoration: none;
+}
+ 
+.hide{
+    display: none;
+}
+
+.hide2{
+    display: none;
+}
+video {
+    padding-top: auto 0px;
+}
+
+iframe {
+    min-width:100%;  
+    min-height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    background-image: url("../img/pinkPanda.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
