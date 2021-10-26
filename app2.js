@@ -19,8 +19,7 @@ button.addEventListener('click', () => {
   }*/
 });
 
-// need event to refresh back to the main page
-fakeVid.addEventListener('ended', () => {
-  // when the video has ended I want to hide it again 
-  window.location.href = "./index2.html";
- });
+// auto reload the page after 20 seconds
+
+setTimeout(function() {  window.location.href = "./index2.html";
+}, 20000);
