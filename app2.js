@@ -23,3 +23,5 @@ button.addEventListener('click', () => {
 
 setTimeout(function() {  window.location.href = "./index2.html";
 }, 20000);
+
+//test
