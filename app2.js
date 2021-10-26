@@ -10,18 +10,9 @@ button.addEventListener('click', () => {
   container .classList.add('hide');
   playVideo.classList.add('container');
   click++;
-  /*
-  const fakeVid = document.querySelector('#dummy-video')[0];
-  while ( click === 1 ) {
-    //const fakeVid = document.getElementById('dummyVid');
-    fakevid.classList.remove('hide2');
-    fakeVid.classList.add('container');
-  }*/
 });
 
-// auto reload the page after 20 seconds
+// auto reload the page after 18 seconds
 
-setTimeout(function() {  window.location.href = "./index2.html";
-}, 20000);
+setTimeout(function() {  window.location.href = "./index2.html";}, 18000);
 
-//test

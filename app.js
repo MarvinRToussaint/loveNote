@@ -21,4 +21,3 @@ mainVideo.addEventListener('ended', () => {
   window.location.href = "./index2.html";
  });
 
- //test
